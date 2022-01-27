@@ -1,8 +1,7 @@
 // import React from "react";
+const decisions = ["Яблоко", "Банан"];
 
 function Button() {
-  const decisions = ["Яблоко", "Банан"];
-
   function handleClick() {
     let decision = decisions[Math.floor(Math.random() * decisions.length)];
 

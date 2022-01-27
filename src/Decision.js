@@ -1,7 +1,7 @@
 function Decision() {
   return (
     <div>
-      <h1>Decision has been made</h1>
+      <h3>Decision has been made</h3>
     </div>
   );
 }
