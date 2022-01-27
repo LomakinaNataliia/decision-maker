@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <h1>hello</h1>
       <p>some text</p>
+
       <DecisionMaker />
       <footer>Fasolkin Zad Ink ©</footer>
     </div>
