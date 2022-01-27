@@ -19,9 +19,6 @@ function DecisionMaker() {
     setAnswer(decision);
   };
 
-  // if (button is clicked){
-  //   return (component <Decision />);
-  // }else{}
   return (
     <div>
       <Button clickButton={clickButton} getAnswer={getAnswer} />

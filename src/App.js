@@ -6,9 +6,11 @@ function App() {
     <div className="App">
       <h1>header</h1>
       <p>some explanation what to do etc etc</p>
-      {/* <img src="https://www.kindpng.com/picc/m/370-3708687_funny-cat-meme-editit-cool-freetoedit-grey-british.png" /> */}
+      <div className="pic">
+        <img src="https://4fun.one/uploads/posts/t/1584131406.jpeg" />
+      </div>
       <DecisionMaker />
-      <footer>Fasolkin Zad Ink ©</footer>
+      <footer>Fasolkin Zad Inc ©</footer>
     </div>
   );
 }
