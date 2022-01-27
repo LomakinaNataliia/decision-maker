@@ -28,13 +28,13 @@ button {
   padding: 6px;
 }
 
-button:hover {
+/* button:hover {
   transform: scale(1.2);
 }
 
 button::after {
   width: 0%;
-}
+} */
 
 h3 {
   font-family: "Caveat", cursive;

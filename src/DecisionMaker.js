@@ -7,6 +7,7 @@ const decisions = ["Яблоко", "Банан", "Геральт"];
 function DecisionMaker() {
   let [isClicked, setIsClicked] = useState(false);
   let [answer, setAnswer] = useState(null);
+  let [previousAnswer, setPreviousAnswer] = useState(null);
 
   const clickButton = () => {
     setIsClicked(true);
@@ -15,8 +16,12 @@ function DecisionMaker() {
 
   const getAnswer = () => {
     let decision = decisions[Math.floor(Math.random() * decisions.length)];
+    while (previousAnswer === decision) {
+      decision = decisions[Math.floor(Math.random() * decisions.length)];
+    }
     console.log(decision);
     setAnswer(decision);
+    setPreviousAnswer(decision);
   };
 
   return (

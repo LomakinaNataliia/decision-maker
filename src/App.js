@@ -7,7 +7,10 @@ function App() {
       <h1>header</h1>
       <p>some explanation what to do etc etc</p>
       <div className="pic">
-        <img src="https://4fun.one/uploads/posts/t/1584131406.jpeg" />
+        <img
+          alt="hoba"
+          src="https://4fun.one/uploads/posts/t/1584131406.jpeg"
+        />
       </div>
       <DecisionMaker />
       <footer>Fasolkin Zad Inc ©</footer>
