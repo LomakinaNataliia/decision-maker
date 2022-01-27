@@ -1,7 +1,7 @@
-function Decision() {
+function Decision({ answer }) {
   return (
     <div>
-      <h3>Decision has been made</h3>
+      <h3>{answer}</h3>
     </div>
   );
 }

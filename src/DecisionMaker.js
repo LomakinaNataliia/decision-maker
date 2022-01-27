@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "./Button";
 import Decision from "./Decision";
 
-const decisions = ["Яблоко", "Банан"];
+const decisions = ["Яблоко", "Банан", "Геральт"];
 
 function DecisionMaker() {
   let [isClicked, setIsClicked] = useState(false);
@@ -14,8 +14,7 @@ function DecisionMaker() {
   };
 
   const getAnswer = () => {
-    let decision = [...answer];
-    decision = decisions[Math.floor(Math.random() * decisions.length)];
+    let decision = decisions[Math.floor(Math.random() * decisions.length)];
     console.log(decision);
     setAnswer(decision);
   };
@@ -26,7 +25,7 @@ function DecisionMaker() {
   return (
     <div>
       <Button clickButton={clickButton} getAnswer={getAnswer} />
-      <Decision />
+      <div> {isClicked ? <Decision answer={answer} /> : null}</div>
     </div>
   );
 }
