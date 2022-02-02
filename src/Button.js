@@ -8,7 +8,7 @@ function Button({ clickButton, getAnswer }) {
 
   return (
     <div>
-      <button onClick={handleClick}>→ ›жмяк‹ ←</button>
+      <button onClick={handleClick}> ›жмяк‹ </button>
     </div>
   );
 }
