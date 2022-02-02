@@ -6,7 +6,8 @@ button {
   background-color: #f2f5c8;
   color: #219f94;
   font-size: 18px;
+  font-family: "Comfortaa";
 
-  margin: 6%;
+  margin: 5% 0% 10% 0%;
   padding: 10px 25px;
 }
