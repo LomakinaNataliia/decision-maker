@@ -2,15 +2,15 @@
   /* color: #e8e8a6; */
   color: #f2f5c8;
   background-color: #219f94;
-  font-family: "Dongle", sans-serif;
+  font-family: "Comfortaa";
 
   text-align: center;
 }
 
 img {
   display: block;
-  height: 40%;
-  width: 20%;
+  height: 50%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@ div.pic {
   background-color: #c1deae;
 }
 
-button {
+/* button {
   border: 2% solid black;
   border-radius: 20px 20px;
   background-color: #f2f5c8;
@@ -26,18 +26,10 @@ button {
   font-size: 18px;
   margin: 2%;
   padding: 6px;
-}
-
-/* button:hover {
-  transform: scale(1.2);
-}
-
-button::after {
-  width: 0%;
 } */
 
 h3 {
-  font-family: "Caveat", cursive;
+  font-family: "Caveat";
 }
 
 footer {
