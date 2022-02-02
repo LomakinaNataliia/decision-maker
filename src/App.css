@@ -3,7 +3,8 @@
   color: #f2f5c8;
   background-color: #219f94;
   font-family: "Comfortaa";
-
+  max-width: 500px;
+  margin: 10px auto;
   text-align: center;
 }
 
