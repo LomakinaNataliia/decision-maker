@@ -12,7 +12,7 @@ function App() {
       <div className="pic">
         <img
           alt="hoba"
-          src="https://4fun.one/uploads/posts/t/1584131406.jpeg"
+          src="https://drive.google.com/uc?export=view&id=1gI5rhVU_qlb9NFFIVe76ljICUJg0v4Y7"
         />
       </div>
 
